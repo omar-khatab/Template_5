@@ -24,9 +24,8 @@ let settingBox= document.querySelector(".setting-box")
 
 gearIcon.onclick = function () {
     settingBox.classList.toggle("appear");
-    this.classList.toggle("fa-spin");
+    this.classList.toggle("spinner");
 };
-
 
 // change the mian color in the page
 

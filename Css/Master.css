@@ -72,6 +72,14 @@ a {
     font-size: 18px;
     color: var(--main-color);
 }
+.spinner {
+    animation: spin 1s infinite linear;
+}
+@keyframes spin {
+    to {
+        transform: rotate(1turn);
+    }
+}
 .setting-box .toggle i {
     cursor: pointer;
     padding: 4px;
